@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7E794413-62C7-402E-9E38-5147830250B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{457C36C6-22D7-4BC0-A941-0E7A04A8C25E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeRaspberryAwards", "FakeRaspberryAwards\FakeRaspberryAwards.csproj", "{417D102F-3686-4F1A-B93F-76E5DB9A26BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeRaspberryAwards.WebApi", "FakeRaspberryAwards.WebApi\FakeRaspberryAwards.WebApi.csproj", "{8F31205D-3805-44B0-9241-F355815E50B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{417D102F-3686-4F1A-B93F-76E5DB9A26BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417D102F-3686-4F1A-B93F-76E5DB9A26BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417D102F-3686-4F1A-B93F-76E5DB9A26BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417D102F-3686-4F1A-B93F-76E5DB9A26BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F31205D-3805-44B0-9241-F355815E50B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F31205D-3805-44B0-9241-F355815E50B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F31205D-3805-44B0-9241-F355815E50B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F31205D-3805-44B0-9241-F355815E50B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{417D102F-3686-4F1A-B93F-76E5DB9A26BB} = {457C36C6-22D7-4BC0-A941-0E7A04A8C25E}
+		{8F31205D-3805-44B0-9241-F355815E50B4} = {7E794413-62C7-402E-9E38-5147830250B4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAFC20D5-9FD3-481B-9556-56592D10E61A}
+	EndGlobalSection
+EndGlobal
