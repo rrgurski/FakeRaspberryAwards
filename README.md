@@ -3,6 +3,8 @@ Teste de Skill para empresa Texo IT.
 
 [Clique aqui](/EspecificacaoTeste.pdf) para visualizar o PDF da descrição do teste.
 
+Obs: Testes estão incompletos até esse momento.
+
 ## Tecnologias utilizadas
 - ASP.NET Core 5.0;
 - EF Core 5.0;
